@@ -1,6 +1,21 @@
-html,body{height:100%;background:#00835b;margin:0;padding:0}
-div{position:relative;height:100%;width:100%}
-div img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;max-width:75%;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+html,body{height:100%;background:#00835b;margin:0;padding:0;font-family: 'Noto Sans JP', sans-serif;}
+div.logo{position:relative;height:25%;width:100%}
+div.logo img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;max-width:75%;}
+.content {margin:0 auto 2em;width:50%;}
+.content h1, h2, h3, p {color:#e3e3e3;}
+footer {height:3em;}
+
+@media screen and (max-width: 900px) {
+  .content {width:80%;} 
+}
+@media screen and (max-width:450px) {
+  .content{width:80%;}
+   }
+@media screen and (max-width: 300px) {
+    .content{width:80%;}
+   }
 
 /*** FORM STYLES ***/
 #fs-frm input,
@@ -38,7 +53,7 @@ div img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;max-width:75
 #fs-frm textarea,
 #fs-frm #card-element {
   border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
+  background-color:#e3e3e3;
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
 }
@@ -110,3 +125,5 @@ div img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;max-width:75
   margin-right: 3%;
 }
 
+/*** FORM STYLE OVERRIDES ***/
+#fs-frm label {color:#e3e3e3;}
