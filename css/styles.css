@@ -3,8 +3,9 @@
 html,body{height:100%;background:#00835b;margin:0;padding:0;font-family: 'Noto Sans JP', sans-serif;}
 div.logo{position:relative;height:25%;width:100%}
 div.logo img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;max-width:75%;}
-.content {margin:0 auto 2em;width:50%;}
-.content h1, h2, h3, p {color:#e3e3e3;}
+.content {margin:5em auto 2em;width:35%;text-align:center;}
+.content h1, h2, h3 {color:#c0c0c0;}
+.content p {color:#fff;}
 footer {height:3em;}
 
 @media screen and (max-width: 900px) {
