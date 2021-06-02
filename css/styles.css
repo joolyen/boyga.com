@@ -55,7 +55,7 @@ footer {height:3em;}
 #fs-frm #card-element {
   border: 1px solid rgba(0,0,0,0.2);
   background-color:#e3e3e3;
-  padding: .75em 1rem;
+  padding: .75em .5;
   margin-bottom: 1.5rem;
 }
 #fs-frm input:focus,
