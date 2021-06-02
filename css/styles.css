@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-html,body{height:100%;background:#00835b;margin:0;padding:0;font-family: 'Noto Sans JP', sans-serif;}
+html,body{height:100%;background:#00355f;margin:0;padding:0;font-family: 'Noto Sans JP', sans-serif;}
 div.logo{position:relative;height:25%;width:100%}
 div.logo img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;max-width:75%;}
-.content {margin:5em auto 2em;width:35%;text-align:center;}
+.content {margin:3em auto 2em;width:35%;text-align:center;}
 .content h1, h2, h3 {color:#c0c0c0;}
 .content p {color:#fff;}
 footer {height:3em;}
@@ -128,3 +128,4 @@ footer {height:3em;}
 
 /*** FORM STYLE OVERRIDES ***/
 #fs-frm label {color:#e3e3e3;}
+#fs-frm [type="submit"], #fs-frm [type="reset"] {margin-bottom: 0; margin: auto; border-radius: 5px; background: #c0c0c0;}
