@@ -10,6 +10,7 @@ footer{height:3em}
 }
 @media screen and (max-width:450px) {
 .content{width:80%}
+.content a.button1{display:block;margin:0.4em auto;}
 }
 @media screen and (max-width:300px) {
 .content{width:80%}
@@ -36,4 +37,22 @@ footer{height:3em}
 .examples ul{list-style-type:none;padding:0}
 .examples ul li a{color:#222;line-height:2em}
 .examples ul li a:hover{color:#008c64}
-.content .btn{color:#fff;font-weight:700;font-size:1rem;text-decoration:none;text-transform:uppercase;border-radius:5px;margin:2em 0;padding:1em;background-color:#008c64}
+.content .btn{color:#fff;font-weight:700;font-size:1rem;text-decoration:none;text-transform:uppercase;border-radius:5px;margin:2em 0;padding:1em;background-color:#008c64;}
+
+.content a.button1{display:inline-block;
+    padding:1em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:5px;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    background-color:#008c64;
+    }
+.content a.button1:hover{
+    color:#000000;
+    background-color:silver;
+    }
